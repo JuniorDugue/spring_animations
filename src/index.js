@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-import "./styles.css";
-
+import Component1 from "./components/Component1";
+import "./styles.scss";
+// npm i react-spring to install react=spring
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Component1 />
     </div>
   );
 }
